@@ -1,0 +1,4 @@
+参考教程:https://www.cnblogs.com/feipeng8848/p/8970556.html
+先安装sudo apt install chrome-gnome-shell
+再安装sudo apt install gnome-shell-extensions
+然后在谷歌打开https://extensions.gnome.org/,如果显示要你安装那你就点击按钮安装,如果显示是一堆红色的警告,那就打开火狐浏览器,火狐浏览器就会让你安装了.
