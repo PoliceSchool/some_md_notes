@@ -22,7 +22,7 @@
 4. 如果一个节点是红色的,那么它的两个孩子均为黑色的.
 5. 从给定节点到其任何后代NIL节点的每条路径都包含相同数量的黑色节点
 
-![Diagram of binary tree. The black root node has two red children and four black grandchildren. The child nodes of the grandchildren are black nil pointers or red nodes with black nil pointers.](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Red-black_tree_example.svg/500px-Red-black_tree_example.svg.png)
+![Diagram of binary tree. The black root node has two red children and four black grandchildren. The child nodes of the grandchildren are black nil pointers or red nodes with black nil pointers.](../../images/data_structure/red_black_tree.png)
 
 注意,除了第五个约束条件之外,没有其他限制加载黑色节点的子节点上(自己的备注:第一条针对的是所有节点,第二条针对的是根节点,而非根节点的子节点,第三条是叶子节点,叶子节点没有子节点,第四条针对的是红色节点的子节点,而第五条说的是给定节点到其任何NIL后代的子节点里面的黑色节点数量相同,这个给定节点有可能是红色节点,也有可能是黑色节点,所以包括了黑色节点,也就是针对黑色节点的子节点).所以,黑色节点(如叶子节点)可以是黑色节点的子节点 ;例如,每个仅由黑色节点组成的[理想二叉树](https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees)都是一颗红黑树.
 

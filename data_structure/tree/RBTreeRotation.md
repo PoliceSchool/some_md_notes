@@ -20,7 +20,7 @@
         (i)将x的parent和uncle的颜色都改为黑色
         (ii)将grant parent的颜色变为红色
         (iii)令 x = x的grand parent， 让新的x重复第2步和第3步
-   ![redBlackCase2](https://media.geeksforgeeks.org/wp-content/cdn-uploads/redBlackCase2.png)
+   ![redBlackCase2](../../images/data_structure/insert_rotation_1.png)
 
    b) 如果x的uncle节点是黑色的，那么对于x，x的parent(p)，x的grand parent(g)来说，一共有4种情况需要配置。
         (i)Left Left Case (p is left child of g and x is left child of p)
@@ -30,13 +30,13 @@
    下面4种操作对应上面4种情况**(其实可以看到，不论是4种中的哪一种情况，本质上都是红色节点下面有红色子节点，这一点违反了红黑树的第4个特性。之所以会出现红色节点下面又有红色子节点这些情况，其实与我们在第1步时将新插入的节点x的颜色设置为红色是脱不了干系的)**
    **Left Left Case (See g, p and x)**
 
-   ![redBlackCase3a](https://media.geeksforgeeks.org/wp-content/cdn-uploads/redBlackCase3a1.png)
+   ![redBlackCase3a](../../images/data_structure/insert_rotation_2.png)
    **Left Right Case (See g, p and x)**
    ![redBlackCase3b](https://media.geeksforgeeks.org/wp-content/cdn-uploads/redBlackCase3b.png)
    **Right Right Case (See g, p and x)**
-   ![redBlackCase3c](https://media.geeksforgeeks.org/wp-content/cdn-uploads/redBlackCase3c.png)
+   ![redBlackCase3c](../../images/data_structure/insert_rotation_4.png)
    **Right Left Case (See g, p and x)**
-   ![redBlackCase3d](https://media.geeksforgeeks.org/wp-content/cdn-uploads/redBlackCase3d.png)
+   ![redBlackCase3d](../../images/data_structure/insert_rotation_5.png)
 
 疑问：
 
