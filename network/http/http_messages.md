@@ -1,3 +1,5 @@
+翻译自[这里](https://www.tutorialspoint.com/http/http_messages.htm):
+
 http是基于client-server架构的无状态request/response协议,通过可靠的TCP/IP连接来交换message.
 
 http客户端是一个程序(可能是网络浏览器或者其他客户端),用来向服务端建立连接以发送http request messages.
