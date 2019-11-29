@@ -24,7 +24,7 @@ Request-Line = Method SP Request-URI SP HTTP-Version CRLF
 
 让我们看看上面提及到的request-line中的每个部分
 
-<font size=4>Request-Method</font>
+<font size=6>Request-Method</font>
 
 request方法表明以什么方法去执行被**Request-URI**指定的资源。这个method不区分大小写并且应该总是大写的。下面这张表列举出了HTTP/1.1中支持的methods。
 
@@ -57,4 +57,12 @@ request方法表明以什么方法去执行被**Request-URI**指定的资源。�
 <td><b>TRACE</b><p>Performs a message loop back test along with the path to the target resource.</p></td>
 </tr>
 </table>
+
+<font size=6>Request-URI</font>
+
+Request-URI是统一资源标识符,用来标识请求的资源.下面是最常用的URI形式:
+
+```
+Request-URI = "*" | absoluteURI | abs_path | authority
+```
 
