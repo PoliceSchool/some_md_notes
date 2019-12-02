@@ -51,7 +51,10 @@ request方法表明以什么方法去执行被**Request-URI**指定的资源。�
 <td><b>CONNECT</b><p>Establishes a tunnel to the server identified by a given URI.</p></td>
 </tr>
 <tr>
-<td><b>OPTIONS</b><p>Describe the communication options for the target resource.</p></td>
+<td><b>OPTIONS</b><p>Describe the communication options for the target resource.</p><p>OPTIONS请求方法的主要用途有两个：</p>
+<p>1、获取服务器支持的HTTP请求方法；也是黑客经常使用的方法。</p>
+<p>2、用来检查服务器的性能。例如：AJAX进行跨域请求时的预检，需要向另外一个域名的资源发送一个HTTP OPTIONS请求头，用以判断实际发送的请求是否安全。</p>
+<p>3、参考自https://cloud.tencent.com/developer/article/1046663</p></td>
 </tr>
 <tr>
 <td><b>TRACE</b><p>Performs a message loop back test along with the path to the target resource.</p></td>
@@ -65,4 +68,31 @@ Request-URI是统一资源标识符,用来标识请求的资源.下面是最常�
 ```
 Request-URI = "*" | absoluteURI | abs_path | authority
 ```
+
+
+
+<table class="table table-bordered">
+<tr>
+<th>S.N.</th>
+<th>Method and Description</th>
+</tr>
+<tr>
+<td>1</td>
+<td>The asterisk <b>*</b> is used when an HTTP request does not apply to a particular resource, but to the server itself, and is only allowed when the method used does not necessarily apply to a resource. For example:
+<p><b>OPTIONS * HTTP/1.1</b></p></td>
+</tr>
+<tr>
+<td>2</td>
+<td>The <b>absoluteURI</b> is used when an HTTP request is being made to a proxy. The proxy is requested to forward the request or service from a valid cache, and return the response. For example:
+<p><b>GET http://www.w3.org/pub/WWW/TheProject.html HTTP/1.1</b></p></td>
+</tr>
+<tr>
+<td>3</td>
+<td>The most common form of Request-URI is that used to identify a resource on an origin server or gateway. For example, a client wishing to retrieve a resource directly from the origin server would create a TCP connection to port 80 of the host "www.w3.org" and send the following lines:
+<p><b>GET /pub/WWW/TheProject.html HTTP/1.1</b></p>
+<p><b>Host: www.w3.org</b></p>
+<p>Note that the absolute path cannot be empty; if none is present in the original URI, it MUST be given as "/" (the server root).</p>
+</td>
+</tr>
+</table>
 
