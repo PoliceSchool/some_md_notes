@@ -20,7 +20,7 @@
 7. 返回查询到的IP给了 DNS Resolver；
 8. DNS Resolver返回IP给浏览器，浏览器将会用这个IP来建立连接，发起请求;
 
-![DNS query diagram](./images/dns_lookup_diagram.webp)
+![DNS query diagram](./images/dns_lookup_diagram.png)
 
 ### **如何通过浏览器进行域名解析(侧重于从浏览器开始解析域名）？**
 
