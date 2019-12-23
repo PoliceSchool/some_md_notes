@@ -14,8 +14,8 @@ TCP协议中的flag含义,翻译自[这里](https://www.geeksforgeeks.org/tcp-fl
 3. 在第③步的时候,发送端接收到了接收端的回应,发现SYN和ACK都为1,说明发送端到接收端的连接已经建立了,然后发送端又发现接收到的segment所期待的编号是522,所以就将sequence number设置为522,并且因为已经成功接收到了接收端的segment,所以将ack置为1,另外将acknowledgement number设置为2001表明发送端下一个想要接受到的segment的编号为2001.此时接收端到发送端的连接已经建立.可以开始真正的数据传输了.
 4. 总结:①②步建立发送端到接收端的连接,②③步建立接收端到发送端的连接.
 
-![img](../../images/network/tcp_flag.png)
+![img](../images/tcp/tcp_flag.png)
 
 * FIN标志位:这个标志位用来终止连接.当发送端已经没有数据需要发送时,它会请求连接的终止.这是发送端最后一次发包.它会释放保留的资源并且优雅的终止连接.
 
-![img](../../images/network/tcp_flag2.png)
+![img](../images/tcp/tcp_flag2.png)
