@@ -5,7 +5,9 @@
 ## 当浏览器输入URL发生了什么：
 
 1. 输入URL，回车
-2. 浏览器将将域名解析为IP（引出DNS，DNS查询，ARP协议，UDP等）
+2. 浏览器将域名解析为IP（引出DNS，DNS查询，UDP等）
+   * [DNS查询](../network/dns/dns_lookup.md)
+   * [为什么DNS使用UDP而不是TCP](../network/dns/why_dns_use_udp.md)
 3. 浏览器通过IP与与服务器进行连接（主要引出TCP三次握手协议）
 4. 浏览器向服务器发起请求（引出HTTP协议参数、HTTP与HTTPS的区别）
 5. 浏览器接受服务器的响应（引出HTTP协议的status）
@@ -18,9 +20,7 @@
 
 参考资料：
 
-<https://wsvincent.com/what-happens-when-url/>
-
-<https://www.cloudflare.com/learning/dns/what-is-dns/>
+<https://wsvincent.com/what-happens-when-url/
 
 
 
