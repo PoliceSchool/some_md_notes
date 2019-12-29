@@ -43,3 +43,71 @@ local variable也有可能是一个指向另一个对象的引用。在这种情
 ![The Java Memory Model From a Logic Perspective](../image/java_memory_model_3.png)
 
 两个线程会有local variables集合。其中一个local variable（Local variable 2）指向了heap上的一个对象（Object 3）。这两个线程都会有各自的引用指向相同的对象。这两个线程的引用是local variable并且存放在各自线程的thread stack里。这两个不同的引用指向了相同的对象。
+
+注意共享变量(Object3)有指向成员变量Object2和Object4的引用.通过Object3中的成员变量引用这两个线程都能够访问Object2和Object4.
+
+这个图里面有一个指向了heap里面两个不同对象的lcoal variable.在这种情况下这两个指向了两个不同的对象(Object1和Object5)的引用不是同一个对象.理论上两个线程都能够访问Object1和Object5,如果两个线程的引用都指向了对方的对象.但是上图这种情况下每个线程只能有这两个对象其中一个的引用.
+
+所以,什么样的java代码会有上图那样的内存架构图呢?如下所示:
+
+```java
+public class MyRunnable implements Runnable() {
+
+    public void run() {
+        methodOne();
+    }
+
+    public void methodOne() {
+        int localVariable1 = 45;
+
+        MySharedObject localVariable2 =
+            MySharedObject.sharedInstance;
+
+        //... do more with local variables.
+
+        methodTwo();
+    }
+
+    public void methodTwo() {
+        Integer localVariable1 = new Integer(99);
+
+        //... do more with local variable.
+    }
+}
+```
+
+```java
+public class MySharedObject {
+
+    //static variable pointing to instance of MySharedObject
+
+    public static final MySharedObject sharedInstance =
+        new MySharedObject();
+
+
+    //member variables pointing to two objects on the heap
+
+    public Integer object2 = new Integer(22);
+    public Integer object4 = new Integer(44);
+
+    public long member1 = 12345;
+    public long member1 = 67890;
+}
+```
+
+如果有两个线程在执行run方法,那么结果就会是刚才所展示的图.run方法调用了methodOne方法然后methodOne方法又调用了methodTwo方法.
+
+methodOne声明了一个基本的local variable(localVariable1 of type int)和一个local variable(对象引用,localVariable2).
+
+每一个线程执行methodOne方法将会在自己的thread stack上创建自己版本的localVariable1和localVariable2.这两个localVariable1将会被完全隔离开,只存在于各自线程的thread stack中.一个线程不能看见另一个线程对自己的localVariable1做出的改变.
+
+每一个线程执行methodTwo方法将会创建自己版本的localVariable2.然而,不同的版本的localVariable2最终都会指向heap上的同一个对象.代码里面将localVariable2指向了一个静态变量.静态变量只会有一份,并且存放在heap上.因此,两个localVariable2最终都会指向相同的MySharedObject的实例.MySharedObject的实例同样也存在heap上.它对应了上图中的Object3.
+
+注意到MySharedObject包含了两个成员变量.这两个成员变量跟对象一起存放在heap上.这两个成员变量指向了两个Internet对象.这两个Internet对象对应了上图中的Object2和Object4.
+
+注意到methodTwo方法创建了一个名为localVariable2的local variable.这个local variable是一个指向Integer的对象引用.这个方法将localVariable2指向了一个新的Integer实例.这个localVariable1引用将会存放在每一个执行methodTwo的thread stack中.这两个Integer对象实例则放在了heap上.因为每次执行方法时都会创建了新的Integer对象,这两个执行该方法的线程都会创建两个独立的Integer实例.methodTwo方法里面创建的Integer对象对应了上图中的Object1和Object5.
+
+注意到MySharedObject中的两个成员变量的类型是long,也即是基本类型.因为这些变量是成员变量,所以他们也会跟对象一起存放在heap上.只有local variable才存放在threa stack上.
+
+### 硬件内存架构
+
