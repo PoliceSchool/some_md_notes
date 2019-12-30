@@ -1,0 +1,1 @@
+java8虚拟机规范：<https://docs.oracle.com/javase/specs/jvms/se8/html/>
