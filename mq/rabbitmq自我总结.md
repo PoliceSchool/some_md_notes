@@ -19,3 +19,10 @@ exchange与queue之间的绑定是通过routing key绑定在一起的.
 
 采用rabbitmq的坏处:降低系统的可用性,如果rabbitmq挂了,那所有的接口都接受不到mq的消息;增加开发的复杂度,要考虑消息的重复,消息丢失,消息积压,消息顺序,消息幂等,消息事务,集群等等
 
+
+
+消息队列保证顺序性：<https://blog.csdn.net/AAA821/article/details/86650471>
+
+美团的技术博客：<https://tech.meituan.com/2016/07/01/mq-design.html>
+
+一些博客：<https://jack-37.gitbook.io/gossip/guan-yu-mq-de-ji-jian-xiao-shi/guan-yu-mq-de-ji-jian-xiao-shi-wu-ru-he-bao-zheng-xiao-xi-an-shun-xu-zhi-hang>
