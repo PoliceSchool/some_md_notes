@@ -81,3 +81,12 @@ sudo docker run -p 27017:27017 --name mongo \
 ```shell
 sudo docker run --name java8 -d java:8
 ```
+
+# 九.docker启动Zookeeper
+
+* docker启动zookeeper命令
+
+```shell
+sudo docker run --name zk01 -p 2181:2181 --restart always -d zookeeper
+```
+
