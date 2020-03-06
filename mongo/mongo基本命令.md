@@ -18,6 +18,17 @@
   db  
   ```
 
+* 创建删除集合
+
+  ```shell
+  # 创建集合
+  db.createCollection("student")
+  # 删除集合  db.<collection>.drop()
+  db.student.drop()
+  ```
+
+  
+
 * 显示数据库中所有的集合
 
   ```shell
