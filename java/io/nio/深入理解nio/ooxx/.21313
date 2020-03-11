@@ -1,0 +1,17 @@
+set_robust_list(0x7efbe7bec9e0, 24)     = 0
+gettid()                                = 21313
+rt_sigprocmask(SIG_BLOCK, NULL, [QUIT], 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [HUP INT ILL BUS FPE SEGV USR2 TERM], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [QUIT], NULL, 8) = 0
+futex(0x7efbf800c27c, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7efbf8031b78, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x7efbf8031b28, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+futex(0x7efbf8031b28, FUTEX_WAKE_PRIVATE, 1) = 0
+mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7efbb02d0000
+munmap(0x7efbb02d0000, 64159744)        = 0
+munmap(0x7efbb8000000, 2949120)         = 0
+mprotect(0x7efbb4000000, 135168, PROT_READ|PROT_WRITE) = 0
+sched_getaffinity(21313, 32, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]) = 8
+sched_getaffinity(21313, 32, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]) = 8
+futex(0x7efbf8031b7c, FUTEX_WAIT_PRIVATE, 0, NULL) = ?
++++ exited with 130 +++

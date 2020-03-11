@@ -1,0 +1,160 @@
+execve("/usr/local/jdk1.8/bin/java", ["java", "TestSocket"], 0x7ffbffffabd0 /* 77 vars */) = 0
+brk(NULL)                               = 0x2601000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+readlink("/proc/self/exe", "/usr/local/jdk1.8/bin/java", 4096) = 26
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/tls/x86_64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/jli/tls/x86_64/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/jli/tls/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/jli/tls/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/jli/tls", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/x86_64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/jli/x86_64/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/jli/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/jli/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/jli", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/tls/x86_64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/tls/x86_64/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/tls/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/tls/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/tls", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/x86_64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/x86_64/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64/x86_64", 0x7ffbffffa160) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/jdk1.8/bin/../lib/amd64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=105816, ...}) = 0
+mmap(NULL, 105816, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7efbff6e4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efbff6e2000
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbff2b8000
+mprotect(0x7efbff2d2000, 2093056, PROT_NONE) = 0
+mmap(0x7efbff4d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7efbff4d1000
+mmap(0x7efbff4d3000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efbff4d3000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/libjli.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 #\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=109384, ...}) = 0
+mmap(NULL, 2192272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbff0a0000
+mprotect(0x7efbff0b7000, 2093056, PROT_NONE) = 0
+mmap(0x7efbff2b6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7efbff2b6000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbfee9c000
+mprotect(0x7efbfee9f000, 2093056, PROT_NONE) = 0
+mmap(0x7efbff09e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7efbff09e000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbfeaab000
+mprotect(0x7efbfec92000, 2097152, PROT_NONE) = 0
+mmap(0x7efbfee92000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7efbfee92000
+mmap(0x7efbfee98000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efbfee98000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efbff6e0000
+arch_prctl(ARCH_SET_FS, 0x7efbff6e0b80) = 0
+mprotect(0x7efbfee92000, 16384, PROT_READ) = 0
+mprotect(0x7efbff09e000, 4096, PROT_READ) = 0
+mprotect(0x7efbff4d1000, 4096, PROT_READ) = 0
+mprotect(0x7efbff2b6000, 4096, PROT_READ) = 0
+mprotect(0x600000, 4096, PROT_READ)     = 0
+mprotect(0x7efbff6fe000, 4096, PROT_READ) = 0
+munmap(0x7efbff6e4000, 105816)          = 0
+set_tid_address(0x7efbff6e0e50)         = 21302
+set_robust_list(0x7efbff6e0e60, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7efbff2bdcb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff2ca890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7efbff2bdd50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7efbff2ca890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x2601000
+brk(0x2622000)                          = 0x2622000
+readlink("/proc/self/exe", "/usr/local/jdk1.8/bin/java", 4096) = 26
+access("/usr/local/jdk1.8/lib/amd64/libjava.so", F_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/jdk1.8/jre/lib/amd64/libjava.so", F_OK) = 0
+openat(AT_FDCWD, "/usr/local/jdk1.8/jre/lib/amd64/jvm.cfg", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=627, ...}) = 0
+read(3, "# Copyright (c) 2003, 2013, Orac"..., 4096) = 627
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+stat("/usr/local/jdk1.8/jre/lib/amd64/server/libjvm.so", {st_mode=S_IFREG|0755, st_size=17045144, ...}) = 0
+futex(0x7efbff09f0c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/usr/local/jdk1.8/jre/lib/amd64/server/libjvm.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\343\37\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=17045144, ...}) = 0
+mmap(NULL, 16681504, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbfdac2000
+mprotect(0x7efbfe7aa000, 2093056, PROT_NONE) = 0
+mmap(0x7efbfe9a9000, 815104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xce7000) = 0x7efbfe9a9000
+mmap(0x7efbfea70000, 240160, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efbfea70000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/jli/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/local/jdk1.8/bin/../lib/amd64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=105816, ...}) = 0
+mmap(NULL, 105816, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7efbff6e4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\272\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1700792, ...}) = 0
+mmap(NULL, 3789144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbfd724000
+mprotect(0x7efbfd8c1000, 2093056, PROT_NONE) = 0
+mmap(0x7efbfdac0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19c000) = 0x7efbfdac0000
+close(3)                                = 0
+mprotect(0x7efbfdac0000, 4096, PROT_READ) = 0
+mprotect(0x7efbfe9a9000, 614400, PROT_READ) = 0
+getpid()                                = 21302
+munmap(0x7efbff6e4000, 105816)          = 0
+getpid()                                = 21302
+mmap(NULL, 1052672, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7efbff5df000
+mprotect(0x7efbff5e0000, 1048576, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7efbff6defb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7efbff6df9d0, tls=0x7efbff6df700, child_tidptr=0x7efbff6df9d0) = 21303
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGWINCH {si_signo=SIGWINCH, si_code=SI_KERNEL} ---
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
+futex(0x7efbfea8b580, FUTEX_WAKE_PRIVATE, 1) = 1
+rt_sigreturn({mask=[]})                 = 202
+futex(0x7efbff6df9d0, FUTEX_WAIT, 21303, NULL) = ?
++++ exited with 130 +++

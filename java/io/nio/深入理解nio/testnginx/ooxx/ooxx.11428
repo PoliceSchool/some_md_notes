@@ -1,0 +1,230 @@
+execve("/usr/local/nginx/sbin/nginx", ["/usr/local/nginx/sbin/nginx"], 0x7ffbffffb518 /* 27 vars */) = 0
+brk(NULL)                               = 0x565557831000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=106538, ...}) = 0
+mmap(NULL, 106538, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7efbff6e3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efbff6e1000
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbff2d3000
+mprotect(0x7efbff2d6000, 2093056, PROT_NONE) = 0
+mmap(0x7efbff4d5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7efbff4d5000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbff0b4000
+mprotect(0x7efbff0ce000, 2093056, PROT_NONE) = 0
+mmap(0x7efbff2cd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7efbff2cd000
+mmap(0x7efbff2cf000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efbff2cf000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libcrypt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=39208, ...}) = 0
+mmap(NULL, 2322976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbfee7c000
+mprotect(0x7efbfee85000, 2093056, PROT_NONE) = 0
+mmap(0x7efbff084000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7efbff084000
+mmap(0x7efbff086000, 184864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efbff086000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=464824, ...}) = 0
+mmap(NULL, 2560264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbfec0a000
+mprotect(0x7efbfec7a000, 2097152, PROT_NONE) = 0
+mmap(0x7efbfee7a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x70000) = 0x7efbfee7a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\37\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=116960, ...}) = 0
+mmap(NULL, 2212016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbfe9ed000
+mprotect(0x7efbfea09000, 2093056, PROT_NONE) = 0
+mmap(0x7efbfec08000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7efbfec08000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efbfe5fc000
+mprotect(0x7efbfe7e3000, 2097152, PROT_NONE) = 0
+mmap(0x7efbfe9e3000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7efbfe9e3000
+mmap(0x7efbfe9e9000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efbfe9e9000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efbff6df000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efbff6dd000
+arch_prctl(ARCH_SET_FS, 0x7efbff6e06c0) = 0
+mprotect(0x7efbfe9e3000, 16384, PROT_READ) = 0
+mprotect(0x7efbfec08000, 4096, PROT_READ) = 0
+mprotect(0x7efbff2cd000, 4096, PROT_READ) = 0
+mprotect(0x7efbfee7a000, 4096, PROT_READ) = 0
+mprotect(0x7efbff084000, 4096, PROT_READ) = 0
+mprotect(0x7efbff4d5000, 4096, PROT_READ) = 0
+mprotect(0x565555801000, 4096, PROT_READ) = 0
+mprotect(0x7efbff6fe000, 4096, PROT_READ) = 0
+munmap(0x7efbff6e3000, 106538)          = 0
+set_tid_address(0x7efbff6e0990)         = 11428
+set_robust_list(0x7efbff6e09a0, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7efbff0b9cb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7efbff0b9d50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x565557831000
+brk(0x565557852000)                     = 0x565557852000
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=554, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=554, ...}) = 0
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\3\0\0\0\0"..., 4096) = 554
+lseek(3, -339, SEEK_CUR)                = 215
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\3\0\0\0\0"..., 4096) = 339
+close(3)                                = 0
+getpid()                                = 11428
+openat(AT_FDCWD, "/usr/local/nginx/logs/error.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 3
+uname({sysname="Linux", nodename="jimson", ...}) = 0
+openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 4
+read(4, "0-11\n", 8192)                 = 5
+close(4)                                = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=4*1024}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=554, ...}) = 0
+uname({sysname="Linux", nodename="jimson", ...}) = 0
+openat(AT_FDCWD, "/usr/local/nginx/conf/nginx.conf", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=2656, ...}) = 0
+pread64(4, "\n#user  nobody;\nworker_processes"..., 2656, 0) = 2656
+epoll_create(100)                       = 5
+close(5)                                = 0
+openat(AT_FDCWD, "/usr/local/nginx/conf/mime.types", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=5170, ...}) = 0
+pread64(5, "\ntypes {\n    text/html          "..., 4096, 0) = 4096
+pread64(5, "application/octet-stream        "..., 1074, 4096) = 1074
+close(5)                                = 0
+brk(0x565557873000)                     = 0x565557873000
+close(4)                                = 0
+geteuid()                               = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=556, ...}) = 0
+read(4, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 556
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=106538, ...}) = 0
+mmap(NULL, 106538, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7efbff6e3000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\22\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0644, st_size=39744, ...}) = 0
+mmap(NULL, 2136256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7efbfe3f2000
+mprotect(0x7efbfe3fa000, 2097152, PROT_NONE) = 0
+mmap(0x7efbfe5fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x8000) = 0x7efbfe5fa000
+close(4)                                = 0
+mprotect(0x7efbfe5fa000, 4096, PROT_READ) = 0
+munmap(0x7efbff6e3000, 106538)          = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=106538, ...}) = 0
+mmap(NULL, 106538, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7efbff6e3000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p \0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0644, st_size=47576, ...}) = 0
+mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7efbfe1e6000
+mprotect(0x7efbfe1f1000, 2093056, PROT_NONE) = 0
+mmap(0x7efbfe3f0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xa000) = 0x7efbfe3f0000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220@\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0644, st_size=97176, ...}) = 0
+mmap(NULL, 2202200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7efbfdfcc000
+mprotect(0x7efbfdfe3000, 2093056, PROT_NONE) = 0
+mmap(0x7efbfe1e2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x16000) = 0x7efbfe1e2000
+mmap(0x7efbfe1e4000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efbfe1e4000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P#\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0644, st_size=47568, ...}) = 0
+mmap(NULL, 2168632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7efbfddba000
+mprotect(0x7efbfddc5000, 2093056, PROT_NONE) = 0
+mmap(0x7efbfdfc4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xa000) = 0x7efbfdfc4000
+mmap(0x7efbfdfc6000, 22328, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efbfdfc6000
+close(4)                                = 0
+mprotect(0x7efbfdfc4000, 4096, PROT_READ) = 0
+mprotect(0x7efbfe1e2000, 4096, PROT_READ) = 0
+mprotect(0x7efbfe3f0000, 4096, PROT_READ) = 0
+munmap(0x7efbff6e3000, 106538)          = 0
+openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=2407, ...}) = 0
+mmap(NULL, 2407, PROT_READ, MAP_SHARED, 4, 0) = 0x7efbff6fd000
+lseek(4, 2407, SEEK_SET)                = 2407
+munmap(0x7efbff6fd000, 2407)            = 0
+close(4)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+openat(AT_FDCWD, "/etc/group", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=970, ...}) = 0
+mmap(NULL, 970, PROT_READ, MAP_SHARED, 4, 0) = 0x7efbff6fd000
+lseek(4, 970, SEEK_SET)                 = 970
+munmap(0x7efbff6fd000, 970)             = 0
+close(4)                                = 0
+mkdir("/usr/local/nginx/client_body_temp", 0700) = 0
+stat("/usr/local/nginx/client_body_temp", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+chown("/usr/local/nginx/client_body_temp", 65534, -1) = 0
+mkdir("/usr/local/nginx/proxy_temp", 0700) = 0
+stat("/usr/local/nginx/proxy_temp", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+chown("/usr/local/nginx/proxy_temp", 65534, -1) = 0
+mkdir("/usr/local/nginx/fastcgi_temp", 0700) = 0
+stat("/usr/local/nginx/fastcgi_temp", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+chown("/usr/local/nginx/fastcgi_temp", 65534, -1) = 0
+mkdir("/usr/local/nginx/uwsgi_temp", 0700) = 0
+stat("/usr/local/nginx/uwsgi_temp", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+chown("/usr/local/nginx/uwsgi_temp", 65534, -1) = 0
+mkdir("/usr/local/nginx/scgi_temp", 0700) = 0
+stat("/usr/local/nginx/scgi_temp", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+chown("/usr/local/nginx/scgi_temp", 65534, -1) = 0
+openat(AT_FDCWD, "/usr/local/nginx/logs/access.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 4
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+openat(AT_FDCWD, "/usr/local/nginx/logs/error.log", O_WRONLY|O_CREAT|O_APPEND, 0644) = 5
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+socket(AF_INET, SOCK_STREAM, IPPROTO_IP) = 6
+setsockopt(6, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+ioctl(6, FIONBIO, [1])                  = 0
+bind(6, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+listen(6, 511)                          = 0
+listen(6, 511)                          = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=4*1024}) = 0
+mmap(NULL, 384, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0) = 0x7efbff6fd000
+rt_sigaction(SIGHUP, {sa_handler=0x56555558f544, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGUSR1, {sa_handler=0x56555558f544, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGWINCH, {sa_handler=0x56555558f544, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {sa_handler=0x56555558f544, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=0x56555558f544, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGUSR2, {sa_handler=0x56555558f544, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGALRM, {sa_handler=0x56555558f544, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x56555558f544, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGIO, {sa_handler=0x56555558f544, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x56555558f544, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGSYS, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7efbff0c6890}, NULL, 8) = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7efbff6e0990) = 11429
+exit_group(0)                           = ?
++++ exited with 0 +++

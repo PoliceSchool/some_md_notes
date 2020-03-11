@@ -26,6 +26,7 @@ mysql -uroot -proot --default-character-set=utf8
 
 ```shell
 sudo docker run -d --name rabbit -p 5672:5672 -p 15672:15672 rabbitmq:3.7.15
+sudo docker run -d --name rabbit -p 5672:5672 -p 15672:15672 rabbitmq:3.7.15-management  // 开启后台管理功能
 ```
 
 + 进入运行rabbitmq的docker容器并开启管理功能
