@@ -86,7 +86,7 @@ public class Test {
 
         // 父类的普通变量
         public String ordinaryVariableOfFather = "父类的普通变量赋值";
-        // 父类的静态变量
+        // 父类的静态变量（题外话：类的静态变量存放于方法区中）
         public static String staticVariableOfFather = "父类的静态变量赋值";
 
         {
@@ -127,7 +127,7 @@ public class Test {
 
         // 子类的普通变量
         public String ordinaryVariableOfSon = "子类的普通变量赋值";
-        // 子类的静态变量
+        // 子类的静态变量（题外话：类的静态变量存放于方法区中）
         public static String staticVariableOfSon = "子类的静态变量赋值";
 
         {
@@ -186,6 +186,8 @@ public class Test {
         Son son = new Son();
     }
 }
+
+这里还要补充一点，就是子类重写了父类方法时的加载顺序，具体看当前路径下extendstest目录下的案例
 ```
 
 * 虚拟机必须保证一个类的<clinit>()方法在多线程下被同步加锁.保证每个类只会被加载一次
