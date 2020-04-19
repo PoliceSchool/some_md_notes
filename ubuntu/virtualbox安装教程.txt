@@ -1,0 +1,5 @@
+下载地址：https://download.virtualbox.org/virtualbox/6.1.4/virtualbox-6.1_6.1.4-136177~Ubuntu~bionic_amd64.deb
+下载完直接双击deb包安装即可
+安装完成在命令行里执行 virtualbox 启动即可
+
+启动完成后安装虚拟机时如果发现只能安装32的操作系统时，需要重启电脑进入BIOS，把CPU设置为支持虚拟化模式，我的是微星B450主板，有一个CPU的SVM选项，设置为启动即可；待电脑重启完毕开启virtualbox就可以选择64位操作系统了。
