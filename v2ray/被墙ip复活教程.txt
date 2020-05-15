@@ -1,0 +1,13 @@
+主教程：https://www.youtube.com/watch?v=p49GKHfId_c
+辅助域名：kingshowlu.xyz
+v2ray的windows客户端安装教程：https://garygeng.com/software/windows-v2rayn/
+vmess url地址：vmess://ewoidiI6ICIyIiwKInBzIjogIjIzM3YyLmNvbV9raW5nc2hvd2x1Lnh5eiIsCiJhZGQiOiAia2luZ3Nob3dsdS54eXoiLAoicG9ydCI6ICI0NDMiLAoiaWQiOiAiOTBlYTY5ZWYtMTQ0Ny00NzZjLWEzYWUtMDk1MWExOTQwY2UzIiwKImFpZCI6ICIyMzMiLAoibmV0IjogIndzIiwKInR5cGUiOiAibm9uZSIsCiJob3N0IjogImtpbmdzaG93bHUueHl6IiwKInBhdGgiOiAiLyIsCiJ0bHMiOiAidGxzIgp9Cg==
+
+cdn配置地址：
+https://dash.cloudflare.com/addacfdacd3d305e1cceb1b777ecbb66/kingshowlu.xyz/ssl-tls/edge-certificates
+账号：policeschool@126.com
+
+
+辅助域名申请地址：
+https://www.namesilo.com/account_domain_manage_domain.php?domain=ZmLmAQZ2ZmpmBGZ3ZmD=s6s60q4o47pn808o09s699041q338q61
+账号：kinshowlu
