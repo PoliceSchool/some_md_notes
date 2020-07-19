@@ -16,3 +16,12 @@ sudo yum install docker-ce docker-ce-cli containerd.io
   ## 是否正确安装docker
   sudo docker run hello-world
 ```
+
+## 异常问题
+docker默认用的是国外官方源，可能会拉不下来镜像而报错，所以需要更改docker源
+```shell
+  # 修改或新增 /etc/docker/daemon.json
+  vim /etc/docker/daemon.json
+  # 重启docker
+  systemctl restart docker.service
+```
